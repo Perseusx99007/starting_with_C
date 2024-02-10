@@ -43,7 +43,9 @@ int main(void)
 
     //using "char" and "||(or)"
 
-    /*char c = get_char("Do you agree? ");
+    /*char c;
+    printf("Do you agree? \n");
+    scanf("%s", &c);
 
     if (c == 'y' || c == 'Y')
     {
@@ -54,6 +56,7 @@ int main(void)
     {
         printf("Not agreed. \n");
     }*/
+
 
     //using while loop
 
