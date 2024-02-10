@@ -60,13 +60,18 @@ int main(void)
 
     //using while loop
 
-    /*int i = 3;
+    int i;
+    char text[50];
+    printf("Enter text to be printed. [NOTE!!! MUST BE WITHIN 50 CHARACTERS] \n");
+    scanf("%s", text);
+    printf("Enter the number of times the above text should be printed :- ");
+    scanf("%d", &i);
 
     while (i > 0)
     {
-        printf("Hello!!! \n");
+        printf("\n %s", text);
         i--;
-    }*/
+    }
 
 
     //using for loop
@@ -75,6 +80,7 @@ int main(void)
     {
         printf("Hello!!! \n");
     }*/
+    
 
     //getting started with functions
 
