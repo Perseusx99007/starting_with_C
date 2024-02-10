@@ -76,7 +76,7 @@ int main(void)
 
     //using for loop
 
-    int y;
+    /*int y;
     char text[50];
     printf("Enter text to be printed. [NOTE!!! MUST BE WITHIN 50 CHARACTERS] \n");
     scanf("%s", text);
@@ -87,7 +87,7 @@ int main(void)
     for(int i = 0; i < y; i++)
     {
         printf("\n%s", text);
-    }
+    }*/
 
 
     //getting started with functions
