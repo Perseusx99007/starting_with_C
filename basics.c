@@ -11,16 +11,20 @@ int main(void)
 
     //to take an input from the user and print it...
 
-    char answer[20]; 
+    /*char answer[20]; 
     printf("What is your name? \n");
     scanf("%s", answer);
-    printf("Hello!!!, %s\n", answer);
+    printf("Hello!!!, %s\n", answer);*/
 
 
     //to take 2 inputs from the user and check whether one is greater than the other or the same...
 
-    /*int x = get_int("What is the value of x? ");
-    int y = get_int("What is the value of y? ");
+    /*int x;
+    int y;
+    printf("What is the value of x? \n");
+    scanf("%d", &x);
+    printf("What is the value of y? \n");
+    scanf("%d", &y);
 
     if (x < y)
     {
