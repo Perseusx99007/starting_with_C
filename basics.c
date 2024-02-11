@@ -108,30 +108,30 @@ int main(void)
 
     // using functions to calculate
 
-    int x ,y;
+    /*int x ,y;
     printf("Enter first number :- ");
     scanf("%d", &x);
     printf("Enter second number :- ");
     scanf("%d", &y);
 
-    printf("\nThe sum of %d and %d equals to :- %d", x, y, add(x,y));
+    printf("\nThe sum of %d and %d equals to :- %d", x, y, add(x,y));*/                     //Calling functio and printing it simultaneously
 }
 
 
 //getting started with functions
 
-void function(int n, char c[])
+/*void function(int n, char c[])
 {
     for(int i = 0; i < n; i++)
     {
     printf("\n%s", c);
     }
-}
+}*/
 
 
 // using functions to calculate
 
- int add(int a, int b)
+/*int add(int a, int b)
 {
     return a + b;
-}
+}*/
