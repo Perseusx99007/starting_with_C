@@ -2,6 +2,8 @@
 
 void function(int n, char c[]);
 
+int add(int a, int b);
+
 int main(void)
 {
 
@@ -94,27 +96,25 @@ int main(void)
 
     //getting started with functions
 
-    char text[50];
+    /*char text[50];
     printf("Enter text to be printed. [NOTE!!! MUST BE WITHIN 50 CHARACTERS] \n");
     scanf("%s", text);
     int i;
     printf("Enter the number of times the above text should be printed :- ");
     scanf("%d", &i);
 
-    function(i, text);                                                              //Function Call
+    function(i, text);*/                                                              //Function Call
 
 
     // using functions to calculate
 
-    /*int add(int a, int b)
-    {
-        return a + b;
-    }
+    int x ,y;
+    printf("Enter first number :- ");
+    scanf("%d", &x);
+    printf("Enter second number :- ");
+    scanf("%d", &y);
 
-    int x = get_int("Enter first number : ");
-    int y = get_int("Enter second number : ");
-
-    printf("%i/n", add(x,y));*/
+    printf("\nThe sum of %d and %d equals to :- %d", x, y, add(x,y));
 }
 
 
@@ -126,4 +126,12 @@ void function(int n, char c[])
     {
     printf("\n%s", c);
     }
+}
+
+
+// using functions to calculate
+
+ int add(int a, int b)
+{
+    return a + b;
 }
