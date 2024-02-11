@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void function(int n, char c[]);
+
 int main(void)
 {
 
@@ -92,16 +94,14 @@ int main(void)
 
     //getting started with functions
 
+    char text[50];
+    printf("Enter text to be printed. [NOTE!!! MUST BE WITHIN 50 CHARACTERS] \n");
+    scanf("%s", text);
+    int i;
+    printf("Enter the number of times the above text should be printed :- ");
+    scanf("%d", &i);
 
-    /*void hello(int n)
-    {
-        for(int i = 0; i < n; i++)
-        {
-        printf("Hello!!! \n");
-        }
-    }
-
-    hello(40);*/
+    function(i, text);                                                              //Function Call
 
 
     // using functions to calculate
@@ -115,4 +115,15 @@ int main(void)
     int y = get_int("Enter second number : ");
 
     printf("%i/n", add(x,y));*/
+}
+
+
+//getting started with functions
+
+void function(int n, char c[])
+{
+    for(int i = 0; i < n; i++)
+    {
+    printf("\n%s", c);
+    }
 }
