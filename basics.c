@@ -49,7 +49,7 @@ int main(void)
 
     /*char c;
     printf("Do you agree? \n");
-    scanf("%s", &c);
+    scanf("%c", &c);
 
     if (c == 'y' || c == 'Y')
     {
